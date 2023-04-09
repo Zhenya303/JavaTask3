@@ -14,10 +14,9 @@ public class Main {
         int balance = 100;
         int refill = 1500;
 
-
         if (refill > 1000) {
-            int a = refill / 100 * 101;
-            int sum = balance + a;
+            int bonus = refill / 100 * 101;
+            int sum = balance + bonus;
             System.out.println("Баланс вашего счета " + sum);
 
 
